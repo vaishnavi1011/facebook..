@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width: 90%;
+
+    background-color: rgb(239, 245, 245);
+
+}
+form{
+    background-color:rgb(231, 247, 250);
+    position:relative;
+    width: 320px;
+    height: 270px;
+    padding: 10px 5px 20px;
+    margin: auto;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.last{
+    padding-top:10px ;
+}
+
+input[type='text'],input[type='password']{
+    display: block;
+    background-color:rgb(235, 241, 245);
+    margin: auto;
+    border:1.5px solid rgb(21, 50, 184);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(211, 21, 21);
+    font-size: 15px;
+}
+button{
+    border:none;
+    background-color: rgb(14, 52, 219);
+    color: white;
+    margin: auto;
+    width: 230px;
+    display: block;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: cell;
+}
+.f-pws{
+    display: block;
+    width: 280px;
+    margin: auto;
+    color: rgb(10, 10, 228);
+    padding-left: 80px;
+    font-weight: 400;
+}
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+.btn{
+    width: 180px;
+    font-size: 14px;
+    background-color:rgb(7, 138, 13);
+    text-align: center;
+}
+.f-container{
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(8, 114, 235);
+}
